@@ -117,9 +117,9 @@ global.db.data = {
 
 //Dont save
 
-async function startalfa() {
-    const AlienAlfa = AlfaConnect({
-        logger: pino({ level: 'silent' }),
+const { state, saveCreds } = await useMultiFileAuthState("./Alfa-SESSION");
+  const AlienAlfa = AlfaConnect({
+    logger: pino({ level: "silent" }),
         printQRInTerminal: true,
         browser: ['ᴀʟɪᴇɴ ᴀʟꜰᴀ-ᴍᴅ','safari','3.0.0'],
         auth: state
