@@ -187,7 +187,7 @@ global.APIKeys = {
 //-------------
 global.premium = [`${ownernum}`]
 //-------------
-global.sessionName = 'session.alfa'
+global.sessionName = 'session'
 //-------------
 global.prefa = ['','!','.','🐦','🐤','🗿']
 //-------------
